@@ -1,0 +1,69 @@
+body {
+    background-color: rgb(9, 146, 82);
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.right-side {
+    color: white;
+}
+
+ul {
+    display: inline;
+    padding-bottom: 5px;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    padding: 38px;
+}
+
+.left-side {
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.nav-links .left-side div {
+    margin-right: 20px;
+    font-size: 1.0em;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+
+.main {
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.main a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.main :hover {
+    border-bottom: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+
+
+
+
